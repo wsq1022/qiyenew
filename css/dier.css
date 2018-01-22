@@ -1,0 +1,172 @@
+.biao{
+    width: 100%;
+    height: 100px;
+}
+.biao1{
+    width: 100%;
+    height: 100px;
+    background: white;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 9999;
+    /*display: none;*/
+}
+.biaonei{
+    width: 1000px;
+    height: 100px;
+    background: white;
+    margin: 0 auto;
+}
+.zuo{
+    width: 180px;
+    height: 100%;
+    background: yellow;
+    float: left;
+}
+.zuo img{
+    width: 100%;
+    height: 100%;
+}
+.you{
+    width: 700px;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+}
+.fenlei{
+    display: block;
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    color: black;
+    margin-top: 35px;
+    text-align: center;
+    line-height: 30px;
+}
+.fenlei:hover{
+    background: #bbbbbb;
+}
+.fenlei:nth-child(2){
+    background: #bbbbbb;
+}
+.banner{
+    width: 100%;
+    height: 300px;
+
+}
+.banner ul{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.banner li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    transition: 0.7s;
+}
+.banner li.active{
+    z-index: 10;
+    opacity: 1;
+}
+.b1{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    top:0;
+    left:0;
+}
+.banner li img{
+    width: 100%;
+    height: 300px;
+}
+.jizhi{
+    width: 400px;
+    height: auto;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    z-index: 99;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    position: absolute;
+    top:200px;
+    left: 450px;
+}
+.gy{
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.heng{
+    width: 400px;
+    display: inline-block;
+    height: 2px;
+    background: black;
+    margin-top: 25px;
+    float: left;
+}
+.he2{
+    display: inline-block;
+    width: 400px;
+    height: 2px;
+    background: black;
+    margin-top: 25px;
+    float: right;
+}
+.gyz{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+.gyn{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.gyn p{
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    text-align: center;
+    line-height: 5px;
+
+}
+.gyt{
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    border-bottom:2px solid red;
+    padding-bottom: 10px;
+}
+.gyt img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.dibu{
+    width: 100%;
+    height: 130px;
+}
+.dio,.dit{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+}
+

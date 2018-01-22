@@ -1,0 +1,336 @@
+.biao{
+    width: 100%;
+    height: 100px;
+}
+body{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.biao1{
+    width: 100%;
+    height: 100px;
+    background: white;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    transition: 0.7s;
+}
+.bank{
+    width: 50px;
+    height: 50px;
+    background:skyblue;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+.bank p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+}
+.biaonei{
+    width: 1000px;
+    height: 100px;
+    background: white;
+    margin: 0 auto;
+}
+.zuo{
+    width: 180px;
+    height: 100%;
+    background: yellow;
+    float: left;
+}
+.zuo img{
+    width: 100%;
+    height: 100%;
+}
+.you{
+    width: 700px;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+}
+.fenlei{
+    display: block;
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    color: black;
+   margin-top: 35px;
+    text-align: center;
+    line-height: 30px;
+}
+.fenlei:hover{
+background: #bbbbbb;
+}
+.fenlei:first-child{
+    background: #bbbbbb;
+}
+/*banner*/
+.banner{
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+}
+.banner ul{
+    width: 100%;
+    height: 100%;
+
+}
+.banner li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    transition: 0.7s;
+}
+.banner li.active{
+    z-index: 10;
+    opacity: 1;
+}
+.b1{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    top:0;
+    left:0;
+}
+.banner li img{
+    width: 100%;
+    height: 500px;
+}
+.jizhi{
+    width: 400px;
+    height: auto;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    z-index: 99;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+   position: absolute;
+    top:200px;
+    left: 500px;
+}
+.dian{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    bottom: 80px;
+    left: 700px;
+    z-index: 999;
+}
+.dian div{
+    width: 15px;
+    height: 15px;
+    background: red;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.dian .active{
+    background: #CCCCCC;
+}
+.lun{
+    width: 1050px;
+    height: 400px;
+    margin: 0 auto;
+}
+.lb{
+    width:400px;
+    height: 135px;
+    margin:0 auto;
+    line-height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.lb h3{
+    font-weight: normal;
+}
+.lt{
+    width: 970px;
+    height: 213px;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.ltt{
+    width: 4000px;
+    height: 213px;
+}
+.luntu{
+    width: 312px;
+    height: 212px;
+    margin-right: 17px;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    float: left;
+}
+.luntu img{
+    width: 310px;
+    height: 210px;
+}
+/*.zuojiantou, .youjiantou{*/
+    /*font-size: 40px;*/
+    /*text-align: center;*/
+    /*line-height: 50px;*/
+    /*width: 50px;*/
+    /*height: 50px;*/
+    /*position: absolute;*/
+    /*top:15px;*/
+/*}*/
+/*.zuojiantou{*/
+    /*left: 140px;*/
+/*}*/
+/*.youjiantou{*/
+    /*right: 140px;*/
+/*}*/
+.ling{
+    width: 995px;
+    height: auto;
+    margin: 0 auto;
+}
+.la{
+    width: 340px;
+    height: 120px;
+    margin: 0 auto;
+}
+.la h2{990.520
+    font-weight: normal;
+    text-align: center;
+    line-height: 120px;
+}
+.bottom{
+    width: 994px;
+    height: 520px;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.ba{
+    width: 100%;
+    height: 50%;
+}
+.bat{
+    width: 37%;
+    height: 100%;
+    float: left;
+}
+.bat img{
+    padding-top: 25px;
+}
+.baz{
+    width: 60%;
+    height: 100%;
+    float: right;
+    box-sizing: border-box;
+    padding-top: 25px;
+}
+.babt{
+    width: auto;
+    height: 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+}
+.banr{
+    width: 100%;
+    height:100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.bb{
+    width: 100%;
+    height: 50%;
+}
+.bb .bat{
+    width: 37%;
+    height: 100%;
+    float: right;
+}
+.bb .bat img{
+    padding-top: 25px;
+}
+.bb .baz{
+    width: 60%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 25px;
+}
+.bb .babt{
+    width: auto;
+    height: 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+}
+.bb .banr{
+    width: 100%;
+    height:100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.bb .banr ul{
+    width: 100%;
+    height: 100%;
+}
+.bb .banr ul li{
+    width: 100%;
+    height: 15%;
+    margin-bottom: 5px;
+    border-bottom: 1px dashed black;
+    display: flex;
+    justify-content: space-between;
+}
+.bb .banr ul li .an:hover{
+   color: #bbbbbb;
+    border-bottom: 1px dashed #bbbbbb;
+}
+.aaa{
+    width: 70%;
+    height: 100%;
+}
+.aj{
+    padding-left: 5px;
+    font-size: 20px;
+    float: left;
+}
+.an{
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.bbb{
+    width: 20%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}
+.dibu{
+    width: 100%;
+    height: 100px;
+ }
+.dio,.dit{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+}
+
