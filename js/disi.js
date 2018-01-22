@@ -44,13 +44,12 @@
     window.onscroll = function () {
         let st = document.documentElement.scrollTop;
         if (st > 100) {
-            toq.style.display="none"
             //toq.style.display="block";
             toa.style.top = "0";
         } else {
-           // toq.style.display="block"
+            toa.style.display="block";
             // toq.style.display="none";
-            toa.style.top = "-40px"
+            toq.style.top = "-100px"
         }
     }
 }

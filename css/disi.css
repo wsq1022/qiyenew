@@ -78,7 +78,7 @@
 }
 .jizhi{
     width: 400px;
-    height: auto;
+    height: 300px;
     /*position: absolute;*/
     /*bottom: 0;*/
     z-index: 99;
@@ -155,7 +155,7 @@
     line-height: 50px;
     cursor: pointer;
 }
-.btou .active{
+.btnn.active{
     color: #FF6700;
     border-bottom: 2px solid red;
 }

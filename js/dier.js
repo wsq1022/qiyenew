@@ -28,15 +28,12 @@ br.onmouseout=function () {
     window.onscroll = function () {
         let st = document.documentElement.scrollTop;
         if (st > 100) {
-            toa.style.display="block"
-            toq.style.display="none"
             //toq.style.display="block";
             toa.style.top = "0";
         } else {
-            toa.style.display="none"
-            //toa.style.display="block"
-             toq.style.display="block";
-            toa.style.top = "-100px"
+            toa.style.display="block";
+            // toq.style.display="none";
+            toq.style.top = "-100px"
         }
     }
 }
